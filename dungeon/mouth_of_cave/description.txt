@@ -1,0 +1,6 @@
+
+Mouth of the Cave 
+
+You are at the mouth of the cave. It is dark and damp. Luckily, you brought your
+trusty flashlight with you! You can see two paths here. One leads to the [left]
+and the other leads to the [right]. You can also see the [entrance] of the cave.

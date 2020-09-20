@@ -1,0 +1,6 @@
+
+Ye Olde Gym
+
+You are in a gym filled with exercise equipment. A sign on the wall reads, 'Ye
+Olde Gym'. It appears all of the equipment is in use except for some [weights].
+On the far wall is an [elevator].
