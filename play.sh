@@ -2,12 +2,12 @@
 
 set -e # Sets the script to exit if an error occurs
 
-# TODO: Add a comment
+#TODO: Define function called init 
 function init {
-    ROOT_DIR="$1" # Reads the first argument to the init function
+    ROOT_DIR="$1" #TODO: Reads the first argument to the init function
     cd "$1"
-    if [ -f "init.sh" ]; then #TODO: Add a comment
-        source init.sh #TODO: Add a comment
+    if [ -f "init.sh" ]; then #TODO: Looks for a file named "init.sh"
+        source init.sh #TODO: Run the contents of init.sh in the terminal
         run
     else
         echo "ERROR! NO $(pwd)/init.sh FOUND!"
@@ -18,10 +18,10 @@ function init {
 function run {
     while true; do
         if [ -f "description.txt" ]; then
-            DESCRIPTION="$(cat description.txt)" #TODO: Add a comment
+            DESCRIPTION="$(cat description.txt)" #TODO: Adding variable for DESCRIPTION 
             echo "$DESCRIPTION"
             get_input
-            sleep 1 #TODO: Add a comment
+            sleep 1 #TODO: Pauses the terminal for 1 second
         else
             echo "ERROR! NO $(pwd)/description.txt FOUND!"
             exit 1
@@ -29,18 +29,18 @@ function run {
     done
 }
 
-#TODO: Add a comment
+#TODO: Define function for get_input
 function get_input {
-    read -p "What do you do? " ACTION #TODO: Add a comment
-    if [ -f "handler.sh" ]; then #TODO: Add a comment
-        source handler.sh # TODO: Add a comment
+    read -p "What do you do? " ACTION #TODO: "Displays What do you do?" message and allows you to type an action in.
+    if [ -f "handler.sh" ]; then #TODO: Looks for file named 'handler.sh'
+        source handler.sh # TODO: Run the contents of handler.sh in terminal
     else
         echo "ERROR! NO $(pwd)/handler.sh FOUND!" 
         exit 1
     fi
 }
 
-DOCS="$(cat doc.txt)" #TODO: Add a comment
+DOCS="$(cat doc.txt)" #TODO: Defines variable for doc.txt 
 
 if [ "$1" = "run" ]; then #TODO: Add a comment
     if [ -d "$2" ]; then #TODO: Add a comment
