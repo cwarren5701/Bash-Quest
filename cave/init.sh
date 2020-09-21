@@ -1,0 +1,4 @@
+HAS_KEY=0
+HAS_SWORD=0
+STRENGTH=0
+cd entrance

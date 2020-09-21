@@ -1,0 +1,7 @@
+
+The Dragon's Lair
+
+You are standing inside of a dragon's lair! The air is hot and dank. A tunnel
+leads [back] the way you came. In the center of the room is a massive pile of
+gold atop which a massive red dragon slumbers. Probably best not to [wake] the
+dragon. If you could [slay] it, you would be a hero!
