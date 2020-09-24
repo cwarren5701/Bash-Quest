@@ -1,0 +1,3 @@
+Clouds
+
+You are in the clouds. You can either go [down] to earth. Or go [up] into outer space.

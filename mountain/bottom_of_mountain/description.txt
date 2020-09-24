@@ -1,0 +1,3 @@
+Bottom of Mountain
+
+You are standing at the bottom of a mountain. You have an axe. You can either start climbing [up] the mountain or you can go to [sleep].

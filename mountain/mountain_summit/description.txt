@@ -1,0 +1,3 @@
+Mountain Summit 
+
+You climb up the mountain using your axe for 8 hours. You are tired. You can go back [down] or your can continue [climbing] to the clouds.
